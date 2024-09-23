@@ -6,6 +6,9 @@
     <title>Příhlášení</title>
 </head>
 <body>
-    
+    <nav></nav>
+    <li>
+        <ul></ul>
+</li>
 </body>
 </html>
