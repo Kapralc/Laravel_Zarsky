@@ -14,3 +14,7 @@ Route::get('/register', function () {
 Route::get('/auth', function () {
     return view('auth');
 });
+Route::get('/products', function () {
+    $products = \DB::table('products')->get();
+    return view('products.index', compact('products'));
+});
